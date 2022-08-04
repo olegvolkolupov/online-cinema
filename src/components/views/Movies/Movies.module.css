@@ -1,0 +1,106 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+}
+
+.errorText {
+  color: red;
+}
+
+.spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.totalResults {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px 0px 5px 10px;
+
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+
+  background: lightgray;
+}
+
+.totalResultsText {
+  margin-bottom: 0px;
+  padding: 5px 0px 5px 5px;
+
+  color: #182345;
+}
+
+.boldText {
+  font-weight: 600;
+}
+
+.movies {
+  margin: 0px;
+  padding: 0px;
+
+  list-style: none;
+}
+
+.listItem {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+
+  width: 100%;
+  height: fit-content;
+
+  background: lightgray;
+}
+
+.date {
+  color: darkslategray;
+}
+
+.link {
+  text-decoration: none;
+  color: #182345;
+}
+
+.moviesList {
+  width: 100%;
+}
+
+.oneMovieContainer {
+  display: flex;
+}
+
+.side {
+  width: 164px;
+  display: flex;
+  align-items: center;
+}
+
+.oneMovieDescription {
+  min-width: 500px;
+  padding: 10px 10px 10px 20px;
+
+  color: #182345;
+}
+
+.oneMovieTitle {
+  font-weight: 600;
+  color: brown;
+}

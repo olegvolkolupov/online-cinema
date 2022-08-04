@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.backBtn {
+  margin-top: 5px;
+  width: 100px;
+
+  font-size: 16px;
+  color: #fff;
+
+  background: #182345;
+  border: 2px solid #fff;
+  border-radius: 26px;
+
+  box-shadow: 2px 3px lightblue;
+}
+
+.backBtn:hover {
+  color: #182345;
+  background-color: lightblue;
+  border: 2px solid #182345;
+  box-shadow: 2px 3px #182345;
+}
+
+.backBtn:active {
+  background-color: orange;
+}
+
+.image {
+  margin-top: 25px;
+}
+
+.description {
+  min-width: 500px;
+  padding: 102px 88px 102px 88px;
+}
+
+.title {
+  font-weight: 600;
+}
+
+.spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+}
+
+.errorText {
+  color: red;
+}
+
+.addButtonsContainer {
+  margin-top: 20px;
+}
+
+.firstBtn {
+  margin-right: 15px;
+}
